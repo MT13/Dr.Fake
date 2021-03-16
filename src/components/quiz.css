@@ -1,0 +1,14 @@
+.background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.textBox {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  color: #f24e33;
+}
+

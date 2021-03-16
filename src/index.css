@@ -1,13 +1,134 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Firago !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Firago";
+  src: local("Firago"), url("./fonts/FiraGO_WEB_1001/Italic/FiraGO-Italic.eot"),
+    url("./fonts/FiraGO_WEB_1001/Italic/FiraGO-Italic.woff") format("woff"),
+    url("./fonts/FiraGO_WEB_1001/Italic/FiraGO-Italic.woff2") format("woff2"),
+    url("./fonts/FiraGO_TTF/Italic/FiraGO-Italic.ttf") format("truetype"),
+    url("./fonts/FiraGO_WEB_1001/FiraGO-Italic.svg#FiraGO-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Firago";
+  src: local("Firago"),
+    url("./fonts/FiraGO_WEB_1001/Italic/FiraGO-BoldItalic.eot"),
+    url("./fonts/FiraGO_WEB_1001/Italic/FiraGO-BoldItalic.woff") format("woff"),
+    url("./fonts/FiraGO_WEB_1001/Italic/FiraGO-BoldItalic.woff2")
+      format("woff2"),
+    url("./fonts/FiraGO_TTF/Italic/FiraGO-BoldItalic.ttf") format("truetype"),
+    url("./fonts/FiraGO_WEB_1001/FiraGO-BoldItalic.svg#FiraGO-BoldItalic")
+      format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Firago";
+  src: local("Firago"), url("./fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.eot"),
+    url("./fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff") format("woff"),
+    url("./fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff2") format("woff2"),
+    url("./fonts/FiraGO_TTF/Roman/FiraGO-Bold.ttf") format("truetype"),
+    url("./fonts/FiraGO_WEB_1001/FiraGO-Bold.svg#FiraGO-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Firago";
+  src: local("Firago"), url("./fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.eot"),
+    url("./fonts/FiraGO_WEB_1001/FiraGO-Regular.woff") format("woff"),
+    url("./fonts/FiraGO_WEB_1001/FiraGO-Regular.woff2") format("woff2"),
+    url("./fonts/FiraGO_TTF/Roman/FiraGO-Regular.ttf") format("truetype"),
+    url("./fonts/FiraGO_OTF/Roman/FiraGO-Regular.otf") format("opentype"),
+    url("./fonts/FiraGO_WEB_1001/FiraGO-Regular.svg#FiraGO-Regular")
+      format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue"),
+  url('./fonts/Bebas_Neue/BebasNeue-Regular.eot'),
+  url('./fonts/Bebas_Neue/BebasNeue-Regular.otf') format("opentype"),
+  url('./fonts/Bebas_Neue/BebasNeue-Regular.woff') format("woff"),
+  url('./fonts/Bebas_Neue/BebasNeue-Regular.ttf') format("truetype"),
+  url('./fonts/Bebas_Neue/BebasNeue-Regular.woff2') format("woff2"),
+  url('./fonts/Bebas_Neue/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue"), url("./fonts/Bebas_Neue/LGVBebasNeue-Regular.eot"),
+    url("./fonts/Bebas_Neue/LGVBebasNeue-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Bebas_Neue/LGVBebasNeue-Regular.woff2") format("woff2"),
+    url("./fonts/Bebas_Neue/LGVBebasNeue-Regular.woff") format("woff"),
+    url("./fonts/Bebas_Neue/LGVBebasNeue-Regular.ttf") format("truetype"),
+    url("./fonts/Bebas_Neue/LGVBebasNeue-Regular.otf") format("opentype"),
+    url("./fonts/Bebas_Neue/LGVBebasNeue-Regular.svg#LGVBebasNeue-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BPG Nino Mtavruli';
+  src: local('BPG Nino Mtavruli'), url('./fonts/BPGNinoMtavruli/BPGNinoMtavruli-Bold.eot'),
+   url('./fonts/BPGNinoMtavruli/BPGNinoMtavruli-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/BPGNinoMtavruli/BPGNinoMtavruli-Bold.woff2') format('woff2'),
+      url('./fonts/BPGNinoMtavruli/BPGNinoMtavruli-Bold.woff') format('woff'),
+      url('./fonts/BPGNinoMtavruli/BPGNinoMtavruli-Bold.ttf') format('truetype'),
+      url('./fonts/BPGNinoMtavruli/BPGNinoMtavruli-Bold.svg#BPGNinoMtavruli-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kirovi';
+  src: local('Kirovi'), url('./fonts/Kirovi/GLKirovi-Bold.eot'),
+   url('./fonts/Kirovi/GLKirovi-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Kirovi/GLKirovi-Bold.woff2') format('woff2'),
+      url('./fonts/Kirovi/GLKirovi-Bold.woff') format('woff'),
+      url('./fonts/Kirovi/GLKirovi-Bold.ttf') format('truetype'),
+      url('./fonts/Kirovi/GLKirovi-Bold.svg#GLKirovi-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RobotoMt';
+  src: local('RobotoMt'), url('./fonts/RobotoMt/Roboto_MtavruliBold.eot'),
+   url('./fonts/RobotoMt/Roboto_MtavruliBold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/RobotoMt/Roboto_MtavruliBold.woff2') format('woff2'),
+      url('./fonts/RobotoMt/Roboto_MtavruliBold.woff') format('woff'),
+      url('./fonts/RobotoMt/Roboto_MtavruliBold.ttf') format('truetype'),
+      url('./fonts/RobotoMt/Roboto_MtavruliBold.svg#Roboto_MtavruliBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+

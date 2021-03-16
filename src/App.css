@@ -1,5 +1,16 @@
+@import-normalize;
+
 .App {
   text-align: center;
+  overflow-x: hidden;
+}
+
+.textBox {
+  background-color: 'white';
+  border-radius: 20;
+  padding: "5px";
+  border: "2px solid black";
+  color: "#f24e33"
 }
 
 .App-logo {
@@ -35,4 +46,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.title {
+  font-family: BebasNeue;
 }

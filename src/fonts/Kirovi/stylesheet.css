@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'GL Kirovi';
+    src: url('GLKirovi-Bold.eot');
+    src: url('GLKirovi-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GLKirovi-Bold.woff2') format('woff2'),
+        url('GLKirovi-Bold.woff') format('woff'),
+        url('GLKirovi-Bold.ttf') format('truetype'),
+        url('GLKirovi-Bold.svg#GLKirovi-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

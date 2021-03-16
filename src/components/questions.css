@@ -1,0 +1,30 @@
+.question {
+  font-weight: bold;
+}
+
+.animation {
+  height: 100%;
+  width: 100%;
+  /* position: fixed;
+  left: 0;
+  z-index: 0; */
+}
+
+.Container {
+  position: relative;
+  min-height: 300px;
+  max-height: 800px;
+}
+
+.Content {
+  position: absolute;
+  top: 20px;
+  object-fit: contain;
+
+}
+
+.SubContent {
+  max-height: 20vh;
+  padding: 4%;
+  height: 100%;
+}
